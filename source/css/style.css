@@ -833,8 +833,8 @@ body {
           filter: grayscale(40%);
 }
 .project__pic:hover {
-  -webkit-transform: scale(1.1, 1.1) rotate(-5deg);
-          transform: scale(1.1, 1.1) rotate(-5deg);
+  -webkit-transform: scale(1.1, 1.1) rotate(-4deg);
+          transform: scale(1.1, 1.1) rotate(-4deg);
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
 }

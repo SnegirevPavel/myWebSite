@@ -1,5 +1,6 @@
-$('.mobile div').on('click', () => {
-    $('.mobile div').toggleClass('active');
-    $('.mobile nav').toggleClass('open');
-    $('.mobile nav ul').toggleClass('show');
+
+document.querySelector('.mobile div').addEventListener('click', () => {
+    document.querySelector('.mobile div').classList.toggle('active');
+    document.querySelector('.mobile nav').classList.toggle('open');
+    document.querySelector('.mobile nav ul').classList.toggle('show');
 });
